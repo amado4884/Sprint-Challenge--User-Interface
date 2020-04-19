@@ -234,6 +234,46 @@ header img {
     justify-content: center;
 }
 
+.middle-content .boxes div.box.box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes div.box.box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes div.box.box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes div.box.box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes div.box.box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes div.box.box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes div.box.box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes div.box.box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes div.box.box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes div.box.box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
