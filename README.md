@@ -31,19 +31,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
    Its a way into make HTML code easier to understand for programmers, but also very useful in accessibility.
 
 2. What are the 4 areas of the box model?
+
    Content, Padding, Border, and Margin.
 
 3. While using flexbox, what axis does the following property work on: `align-items: center`?
+
    The cross-axis. So if the flex-direction is row (default), the align-items will target vertical axis.
    If the flex-direction is column, then align-items will target the horizontal axis.
 
 4. Explain why git is valuable to a team of developers.
+
    Many reasons, but version control and branching are very good ones.
 
 5. Define mobile-first design in your own words.
+
    Because most web traffic is now mobile, it makes sense to design a website with a mobile layout in mind first.
    Obviously this also depends on your target audience, but generally speaking because of the abundance of mobile devices,
    this might be a better business and therefore web developement model.
