@@ -190,7 +190,7 @@ header {
 header img {
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .top-content {
@@ -210,6 +210,7 @@ header img {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
 
 .middle-content h2 {
@@ -221,6 +222,7 @@ header img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .middle-content .boxes .box {
@@ -305,4 +307,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        width: 500px;
+    }
+
+    nav.top-nav img {
+        width: 75%;
+        min-width: 100px;
+    }
+
+    nav.top-nav a {
+        padding: 2rem 1rem 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    .middle-content .boxes .box {
+        width: 20%;
+    }
 }
