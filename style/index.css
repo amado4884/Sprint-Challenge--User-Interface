@@ -327,4 +327,93 @@ footer nav a {
     .middle-content .boxes .box {
         width: 20%;
     }
+
+    nav a {
+        padding: 1rem 2rem 1rem 1rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+
+    nav.top-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.top-nav a.logo {
+        padding-bottom: 3rem;
+    }
+
+    nav.top-nav a.logo img {
+        margin: auto;
+        width: 100%;
+    }
+
+    nav.top-nav a:not(.logo) {
+        text-align: center;
+        padding: 0.4rem 2rem;
+        width: 14rem;
+        border-radius: .5rem;
+        border: 1px solid lightgray;
+        font-size: 1rem;
+        color: lightgray;
+    }
+
+    nav.top-nav a:not(.logo):hover,
+    nav.top-nav a.current-page {
+        border: 1px solid lightgray;
+        font-weight: 900;
+        color: rgb(63, 60, 60);
+        box-shadow: inset 0 0 1rem #ffffff;
+        text-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+        background-image: linear-gradient(rgba(211, 211, 211, .5), rgba(169, 169, 169, 1))
+    }
+
+    header img {
+        height: 9rem;
+    }
+
+    .top-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .top-content .text-container h2 {
+        font-weight: bold;
+    }
+
+    .middle-content .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box {
+        width: 100px;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bottom-content .text-container {
+        padding-bottom: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: auto
+    }
+
+    nav a {
+        padding: 1rem;
+    }
 }
